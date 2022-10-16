@@ -1,4 +1,5 @@
 <script lang="ts">
+  import './App.css'
   import { onMount } from "svelte";
   import Footer from "./components/Footer.svelte";
   import Quotes from "./Data/Quotes";
@@ -15,10 +16,10 @@
 </script>
 
 <main class="main-screen">
-  <h1
-    class="text-2xl sm:text-4xl title w-80 sm:w-3/4 border-2 rounded-lg border-black p-3"
-  >
+  <h1 class="text-center leading-10 text-2xl text-slate-800 sm:text-4xl title w-80 sm:w-3/4">
+    <span class="text-5xl">"</span>
     {Quotes[point].quote}
+    <span class="text-5xl">"</span>
   </h1>
   <h2 class=" text-lg bg-slate-800 rounded text-white p-1 mt-5 mb-10">
     {Quotes[point].coach}
