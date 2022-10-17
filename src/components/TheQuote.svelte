@@ -10,11 +10,15 @@
   {quote}
   <span class="text-5xl">"</span>
 </h1>
-<h2 class=" text-lg bg-slate-800 rounded text-white p-1 mt-5 mb-10">
+<h2 class="coach text-lg bg-slate-800 rounded text-white p-1 mt-5 mb-10">
   {coach}
 </h2>
 
 <style>
+
+  .coach{
+    animation: scaling linear 10s infinite
+  }
   .title {
     animation: roling linear 10s infinite;
   }
@@ -27,6 +31,18 @@
     }
     100% {
       transform: translate(0, 0);
+    }
+  }
+
+  @keyframes scaling {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.4);
+    }
+    100% {
+      transform: scale(1);
     }
   }
 </style>

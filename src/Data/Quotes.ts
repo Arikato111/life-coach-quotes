@@ -39,4 +39,9 @@ export default [
     quote: "",
     coach: "",
   },
+  {
+    id: 8,
+    quote: "Se non ci provi, al il 100% di possibilità di fallire.",
+    coach: "Piero Angela",
+  },
 ];
