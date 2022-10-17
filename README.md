@@ -21,7 +21,8 @@
 
 ## TODOs
 
-- [ ] add more quotes (you can frok this, add quotes and open pull request)
+- [ ] add more quotes 
+  - (you can frok this, add quotes in `public/quotes.json` and open pull request)
 - [x] More components
 - [ ] Beautifull front-end
 - [x] responsive

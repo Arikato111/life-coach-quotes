@@ -2,7 +2,7 @@
   import "./App.css";
   import { onMount } from "svelte";
   import Footer from "./components/Footer.svelte";
-  import Quotes from "./Data/Quotes";
+  import Quotes from "../public/quotes.json";
   import TheQuote from "./components/TheQuote.svelte";
 
   let point: number = Math.floor(Math.random() * Quotes.length);
