@@ -17,6 +17,7 @@
 </script>
 
 <main class="main-screen">
+  <div class="text-lg">Life coach quotes</div>
   <TheQuote quote={Quotes[point].quote} coach={Quotes[point].coach} />
   <button class="btn-green" title="click to random quote" on:click={randomQuote}>Random Quote</button>
 </main>

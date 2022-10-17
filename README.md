@@ -21,7 +21,7 @@
 
 ## TODOs
 
-- [ ] add more quotes
-- [ ] More components
+- [ ] add more quotes (you can frok this, add quotes and open pull request)
+- [x] More components
 - [ ] Beautifull front-end
-- [ ] responsive
+- [x] responsive
