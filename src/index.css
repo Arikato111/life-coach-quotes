@@ -8,11 +8,11 @@
 
 @layer components {
   .main-screen {
-    @apply border-4 border-green-400 min-h-screen flex justify-center items-center flex-col box-border;
+    @apply border-4 border-green-400 bg-white dark:border-black dark:bg-gray-900 min-h-screen flex justify-center items-center flex-col box-border;
   }
 
   .btn-green {
-    @apply bg-green-400 p-2 hover:bg-green-500 rounded text-white focus:outline-none shadow-md shadow-slate-300 active:translate-y-2 active:shadow-none transition-all;
+    @apply bg-green-400 dark:bg-green-600 p-2 hover:bg-green-500 rounded text-white dark:text-slate-200 focus:outline-none shadow-md shadow-slate-300 dark:shadow-slate-600 active:translate-y-2 active:shadow-none transition-all;
   }
   .btn-red {
     @apply bg-rose-400 p-2 rounded text-white focus:outline-none shadow-md shadow-slate-300 active:translate-y-2 active:shadow-none transition-all;
